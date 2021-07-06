@@ -1,0 +1,86 @@
+body {
+  background-image: url("/res/podcast-block_brush.png");
+  background-color: #187bcd;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+#hh {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 120px;
+  height: 40px;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul li {
+  margin: 10px;
+  text-decoration: none;
+  text-align: none;
+}
+ul {
+  text-decoration: none;
+  text-align: none;
+}
+#btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#login {
+  background-color: white;
+  color: black;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  border: hidden;
+}
+
+#started {
+  background-color: #187bcd;
+  color: white;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  border: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#btn1 {
+  background-color: #ff0099;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+  border-radius: 5px;
+}
+
+#btn2 {
+  background-color: white;
+  color: #ff0099;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+  border-radius: 5px;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+p {
+  color: white;
+  font-size: 30px;
+}
